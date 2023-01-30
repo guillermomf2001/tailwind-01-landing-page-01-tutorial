@@ -94,10 +94,10 @@ Finally, I will create a local Git repository and push it to a remote GitHub rep
 ```bash
 git init
 git branch -M main
+git add .
 git commit -m "First commit"
 git remote add origin <url-of-your-repository>
 git push -u origin main
-
 ```
 
 At the end of this step the project will be configured and ready to begin its develop.
