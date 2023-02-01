@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="icon" type="image/svg+xml" href="./assets/logomark.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Homesmart</title>
 	</head>
@@ -10,7 +10,7 @@
 	max-w-[1400px] 
 	mx-auto 
 	text-neutral-900 
-	dark:text-neutral-500 
+	dark:text-neutral-300 
 	bg-white 
 	dark:bg-neutral-800">
 		<nav class="
@@ -218,7 +218,7 @@
 				top-1/2
 				-translate-y-1/2
 				-right-24
-				xl:-left-7">
+				xl:-right-7">
 				<h2 id="qualities" class="sr-only">Our Qualities</h2>
 				<div class="container
 				mx-auto
@@ -355,7 +355,7 @@
 						ring-offset-white
 						dark:ring-amber-400
 						dark:ring-offset-neutral-800">
-							Download the App
+							Sign Up
 						</a>
 					</div>
 					<img src="./assets/table.png" alt="Table">
@@ -384,6 +384,182 @@
 				-z-10"></div>
 			</section>
 		</main>
+			<section aria-labelledby="contact" class="container mx-auto px-8 overflow-hidden">
+				<div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
+					<div class="md:flex-1 md:max-w-sm relative">
+						<img src="./assets/lamp.png" alt="Lamp" class="mx-auto">
+						<a href="#" class="
+						py-2
+						px-6
+						bg-amber-400
+						dark:text-neutral-900
+						w-max
+						mx-auto
+						mt-12
+						md:mb-12
+						flex
+						gap-2
+						shadow-xl
+						hover:shadow-none
+						transition-shadow
+						focus:outline-none 
+						focus-visible:ring-4 
+						ring-neutral-900 
+						rounded-md 
+						ring-offset-4 
+						ring-offset-white
+						dark:ring-amber-400
+						dark:ring-offset-neutral-800">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+								class="w-6 h-6">
+								<path stroke-linecap="round" stroke-linejoin="round"
+									d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+							</svg>
+							<span>Download the App</span>
+						</a>
+						<img src="./assets/app.svg" alt="App" width="240" class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs">
+						<div class="
+						absolute
+						-bottom-18
+						left-1/2
+						-translate-x-1/2
+						-right-32
+						-z-10
+						aspect-square
+						md:border-8
+						border-amber-400
+						rounded-full
+						md:w-72
+						lg:w-96"></div>
+					</div>
+					<form class="relative border-8 border-neutral-900 p-6 rounded-lg grid gap-8 md:flex-1 md:max-w-lg my-4 md:my-12 lg:my-16 bg-white dark:bg-neutral-800 w-full">
+						<h2 id="contact" class="text-3xl font-bold">Let's Connect</h2>
+						<div class="relative">
+							<input type="text" id="name" placeholder="Your Name" class="
+							peer
+							form-input
+							w-full
+							border-4
+							border-amber-400
+							rounded-md
+							focus:ring-4
+							dark:focus:ring-offset-2
+							focus:ring-amber-400
+							focus:border-amber-400
+							focus:outline-none
+							dark:bg-amber-400
+							dark:text-neutral-900
+							placeholder-transparent">
+							<label for="name" class="
+							text-neutral-500
+							text-sm
+							font-bold
+							uppercase
+							absolute
+							-top-4
+							left-2
+							-translate-y-1/2
+							transition-all
+							peer-placeholder-shown:left-4
+							peer-placeholder-shown:top-1/2
+							peer-placeholder-shown:text-neutral-900
+							peer-focus:-top-4
+							peer-focus:left-2
+							peer-focus:text-neutral-600
+							dark:peer-focus:text-neutral-300
+							">Your Name</label>
+						</div>
+						<div class="relative">
+							<input type="text" id="email" placeholder="Your Email" class="
+							peer
+							form-input
+							w-full
+							border-4
+							border-amber-400
+							rounded-md
+							focus:ring-4
+							dark:focus:ring-offset-2
+							focus:ring-amber-400
+							focus:border-amber-400
+							focus:outline-none
+							dark:bg-amber-400
+							dark:text-neutral-900
+							placeholder-transparent">
+							<label for="email" class="
+							text-neutral-500
+							text-sm
+							font-bold
+							uppercase
+							absolute
+							-top-4
+							left-2
+							-translate-y-1/2
+							transition-all
+							peer-placeholder-shown:left-4
+							peer-placeholder-shown:top-1/2
+							peer-placeholder-shown:text-neutral-900
+							peer-focus:-top-4
+							peer-focus:left-2
+							peer-focus:text-neutral-600
+							dark:peer-focus:text-neutral-300
+							">Your Email</label>
+						</div>
+						<div class="relative">
+							<textarea name="content" id="content" cols="20" rows="5" placeholder="How can we help?" class="
+								peer
+								form-textarea
+								resize-none
+								w-full
+								border-4
+								border-amber-400
+								rounded-md
+								focus:ring-4
+								dark:focus:ring-offset-2
+								focus:ring-amber-400
+								focus:border-amber-400
+								focus:outline-none
+								dark:bg-amber-400
+								dark:text-neutral-900
+								placeholder-transparent"></textarea>
+							<label for="content" class="
+								text-neutral-500
+								text-sm
+								font-bold
+								uppercase
+								absolute
+								-top-3
+								left-2
+								-translate-y-1/2
+								transition-all
+								peer-placeholder-shown:left-4
+								peer-placeholder-shown:top-6
+								peer-placeholder-shown:text-neutral-900
+								peer-focus:-top-4
+								peer-focus:left-2
+								peer-focus:text-neutral-600
+								dark:peer-focus:text-neutral-300
+								">How can we help?</label>
+						</div>
+						<a href="#" role="menuitem" class="
+						py-2
+						px-6
+						bg-neutral-900
+						text-white
+						w-max
+						shadow-xl
+						hover:shadow-none
+						transition-shadow
+						focus:outline-none 
+						focus-visible:ring-4 
+						ring-neutral-900 
+						rounded-md 
+						ring-offset-4 
+						ring-offset-white
+						dark:ring-offset-amber-400
+						">Sign up</a>
+					</form>
+				</div>
+			</section>
 
 
 		<script type="module" src="/main.js"></script>
